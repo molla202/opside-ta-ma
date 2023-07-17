@@ -64,22 +64,30 @@ NOT: control panelinden yapanlar. önce stoplasın biraz beklesin sonra restart 
 -----------RUES---------------
 
 ———-durdurma komutları rues———-
+```
 cd
 cd testnet-auto-install-v2
 cd testnet-auto-install
 opside-chain/stop-all.sh
-
+```
 ———- baslatma komutları v2 rues———-
+```
 cd
 testnet-auto-install-v2/testnet-auto-install/opside-chain/start-geth.sh
 testnet-auto-install-v2/testnet-auto-install/opside-chain/start-beaconChain.sh
 testnet-auto-install-v2/testnet-auto-install/opside-chain/start-validator.sh
-
+```
 
 ### log bakmak için
-
-
+```
 cd
+```
+```
 testnet-auto-install-v2/testnet-auto-install/opside-chain/show-geth-log.sh
+```
+```
 testnet-auto-install-v2/testnet-auto-install/opside-chain/show-beaconChain-log.sh
+```
+```
 testnet-auto-install-v2/testnet-auto-install/opside-chain/show-validator-log.sh
+```
